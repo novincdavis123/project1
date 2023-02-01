@@ -2,6 +2,8 @@ import 'dart:async';
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:project1/Listv.dart';
+import 'package:project1/separated.dart';
 
 import 'Seconddart.dart';
 import 'logpage.dart';
@@ -27,7 +29,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     Timer(Duration(seconds: 5), () {
       Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (context) => LoginPage()));
+          MaterialPageRoute(builder: (context) => Listv2()));
     });
   }
   @override
