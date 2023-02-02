@@ -21,7 +21,6 @@ class Listv2 extends StatelessWidget{
         );
         },
           ),
-
     );
   }
 }

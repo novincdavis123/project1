@@ -3,6 +3,8 @@ import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:project1/Listv.dart';
+import 'package:project1/building.dart';
+import 'package:project1/listui.dart';
 import 'package:project1/separated.dart';
 
 import 'Seconddart.dart';
@@ -29,7 +31,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     Timer(Duration(seconds: 5), () {
       Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (context) => Listv2()));
+          MaterialPageRoute(builder: (context) => Listnew2()));
     });
   }
   @override
