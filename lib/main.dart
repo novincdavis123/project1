@@ -4,11 +4,13 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:project1/Listv.dart';
 import 'package:project1/building.dart';
+import 'package:project1/custom1.dart';
 import 'package:project1/listui.dart';
 import 'package:project1/separated.dart';
 
 import 'Seconddart.dart';
 import 'logpage.dart';
+import 'newdemo.dart';
 
 void main() {
   runApp(DevicePreview(
@@ -31,7 +33,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     Timer(Duration(seconds: 5), () {
       Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (context) => Listnew2()));
+          MaterialPageRoute(builder: (context) => Lis()));
     });
   }
   @override
