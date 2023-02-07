@@ -4,9 +4,14 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:project1/Listv.dart';
 import 'package:project1/building.dart';
+import 'package:project1/cards.dart';
 import 'package:project1/custom1.dart';
+import 'package:project1/ficon.dart';
+import 'package:project1/grid.dart';
+import 'package:project1/gridbuild.dart';
 import 'package:project1/listui.dart';
 import 'package:project1/separated.dart';
+import 'package:project1/newgrid.dart';
 
 import 'Seconddart.dart';
 import 'logpage.dart';
@@ -31,9 +36,9 @@ class SplashScreen extends StatefulWidget {
 class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
-    Timer(Duration(seconds: 5), () {
+    Timer(Duration(seconds: 2), () {
       Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (context) => Lis()));
+          MaterialPageRoute(builder: (context) => Grid5()));
     });
   }
   @override

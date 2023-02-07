@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class Lis extends StatelessWidget{
-  var list1=[Image(image: NetworkImage('https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXBwbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60')),Image(image: NetworkImage('https://images.unsplash.com/photo-1602081593819-65e7a8cee0dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWFuZ298ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'))
+  var list1=[Image(image: NetworkImage('https://images.unsplash.com/photo-1568702846914-96b305d2aaeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8YXBwbGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60')),
+    Image(image: NetworkImage('https://images.unsplash.com/photo-1602081593819-65e7a8cee0dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bWFuZ298ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60'))
   ,Image(image: NetworkImage('https://images.unsplash.com/photo-1528825871115-3581a5387919?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8YmFuYW5hfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60'))
   ];
   var list2=<String>['Name:Apple','Name:Mango','Name:Banana'];
