@@ -1,10 +1,13 @@
 import 'dart:async';
+import 'dart:developer';
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:project1/Listv.dart';
 import 'package:project1/building.dart';
 import 'package:project1/cards.dart';
+import 'package:project1/cocustom.dart';
+import 'package:project1/count.dart';
 import 'package:project1/custom1.dart';
 import 'package:project1/ficon.dart';
 import 'package:project1/grid.dart';
@@ -14,6 +17,7 @@ import 'package:project1/separated.dart';
 import 'package:project1/newgrid.dart';
 
 import 'Seconddart.dart';
+import 'exgrid.dart';
 import 'logpage.dart';
 import 'newdemo.dart';
 
@@ -38,7 +42,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     Timer(Duration(seconds: 2), () {
       Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (context) => Grid5()));
+          MaterialPageRoute(builder: (context) => Ext()));
     });
   }
   @override

@@ -24,7 +24,7 @@ class Grid5 extends StatelessWidget {
       color: Colors.orange,
       child: Row(
         children: [
-          Icon(Icons.home_filled),
+          Icon(Icons.notifications_outlined),
           SizedBox(child: Text('Heart\nShaker'))
         ],
       ),
@@ -35,7 +35,7 @@ class Grid5 extends StatelessWidget {
       color: Colors.green,
       child: Row(
         children: [
-          Icon(Icons.home_filled),
+          Icon(Icons.camera_alt_outlined),
           SizedBox(child: Text('Heart\nShaker'))
         ],
       ),
@@ -46,7 +46,7 @@ class Grid5 extends StatelessWidget {
       color: Colors.pink,
       child: Row(
         children: [
-          Icon(Icons.home_filled),
+          Icon(Icons.star),
           SizedBox(child: Text('Heart\nShaker'))
         ],
       ),
@@ -57,7 +57,7 @@ class Grid5 extends StatelessWidget {
       color: Colors.red,
       child: Row(
         children: [
-          Icon(Icons.home_filled),
+          Icon(Icons.account_tree_outlined),
           SizedBox(child: Text('Heart\nShaker'))
         ],
       ),
@@ -140,7 +140,6 @@ class Grid5 extends StatelessWidget {
       ),
     ),
   ];
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
