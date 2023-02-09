@@ -1,0 +1,36 @@
+import 'package:flutter/material.dart';
+
+class Grider2 extends StatelessWidget {
+  var list1=[
+    DecorationImage(fit:BoxFit.fill,image: NetworkImage(
+        'https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dXNhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60')),
+    DecorationImage(fit:BoxFit.fill,image: NetworkImage(
+        'https://images.unsplash.com/photo-1543832923-44667a44c804?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8RW5nbGFuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60')),
+    DecorationImage(fit:BoxFit.fill,image: NetworkImage(
+        'https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8ZnJhbmNlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60')),
+    DecorationImage(fit:BoxFit.fill,image: NetworkImage(
+        'https://images.unsplash.com/photo-1554844344-c34ea04258c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHJ1c3NpYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60')),
+    DecorationImage(fit:BoxFit.fill,image: NetworkImage(
+        'https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dXNhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60')),
+    DecorationImage(fit:BoxFit.fill,image: NetworkImage(
+        'https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dXNhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60')),
+  ];
+
+  var list2=['USA','England','France','Russia','Canada','Europe'];
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(title: Text('Gridview')),
+        body: GridView.builder(itemCount: 6,
+            gridDelegate:
+                SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 2,mainAxisSpacing: 20,crossAxisSpacing: 30),
+            itemBuilder: (context, index) {
+              return Stack(
+                children: [Container(
+                  decoration: BoxDecoration(image: list1[index]),
+                ),Positioned(left: 20,top:170,child: Text(list2[index],style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.white),))
+              ]
+              );
+            }));
+  }
+}

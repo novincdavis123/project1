@@ -12,9 +12,11 @@ import 'package:project1/custom1.dart';
 import 'package:project1/ficon.dart';
 import 'package:project1/grid.dart';
 import 'package:project1/gridbuild.dart';
+import 'package:project1/grider1.dart';
 import 'package:project1/listui.dart';
 import 'package:project1/separated.dart';
 import 'package:project1/newgrid.dart';
+import 'package:project1/st.dart';
 
 import 'Seconddart.dart';
 import 'exgrid.dart';
@@ -42,7 +44,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     Timer(Duration(seconds: 2), () {
       Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (context) => Ext()));
+          MaterialPageRoute(builder: (context) => Grider1()));
     });
   }
   @override
