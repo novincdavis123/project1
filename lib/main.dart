@@ -17,11 +17,13 @@ import 'package:project1/listui.dart';
 import 'package:project1/separated.dart';
 import 'package:project1/newgrid.dart';
 import 'package:project1/st.dart';
+import 'package:project1/stag.dart';
 
 import 'Seconddart.dart';
 import 'exgrid.dart';
 import 'logpage.dart';
 import 'newdemo.dart';
+import 'newstag.dart';
 
 void main() {
   runApp(DevicePreview(
@@ -44,7 +46,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     Timer(Duration(seconds: 2), () {
       Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (context) => Grider2()));
+          MaterialPageRoute(builder: (context) => Newstag()));
     });
   }
   @override
