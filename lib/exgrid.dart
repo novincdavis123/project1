@@ -10,42 +10,42 @@ class Ext extends StatelessWidget {
         Icon(Icons.filter_list)
       ],),
       body: GridView.extent(
-          maxCrossAxisExtent: 200, mainAxisSpacing: 20, crossAxisSpacing: 30,
+          maxCrossAxisExtent: 300, mainAxisSpacing: 20, crossAxisSpacing: 30,
           children:
           [
           Padding(
           padding: const EdgeInsets.all(8.0),
       child: Card(child: Column(children: [
-        Image(image: AssetImage('assets/images/wallpaper.jpg')),
-        Text('fgfg', style: TextStyle(fontWeight: FontWeight.bold),),
-        Text('data')
+        Image(height: 100,image: AssetImage('assets/images/bag.png')),
+        Text('Vagabond sack', style: TextStyle(fontWeight: FontWeight.bold),),
+        Text('\$120.00')
       ]
       )
       ),
     ),
     Padding(
     padding: const EdgeInsets.all(8.0),
-    child: Card(child: Column(children: [Image(image: AssetImage('assets/images/wallpaper.jpg')),Text('Vagabond sack',style: TextStyle(fontWeight: FontWeight.bold)),Text('\$120.00')],),),
+    child: Card(child: Column(children: [Image(image: AssetImage('assets/images/eyeglass.png')),Text('Stella',style: TextStyle(fontWeight: FontWeight.bold)),Text('\$58.00')],),),
     ),
     Padding(
     padding: const EdgeInsets.all(8.0),
-    child: Card(child: Column(children: [Image(image: AssetImage('assets/images/wallpaper.jpg')),Text('Stella',style: TextStyle(fontWeight: FontWeight.bold)),Text('\$58.00')],),),
+    child: Card(child: Column(children: [Image(height:100,image: AssetImage('assets/images/belt.png')),Text('Whitney belt',style: TextStyle(fontWeight: FontWeight.bold)),Text('\$35.00')],),),
     ),
     Padding(
     padding: const EdgeInsets.all(8.0),
-    child: Card(child: Column(children: [Image(image: AssetImage('assets/images/wallpaper.jpg')),Text('Whitney belt',style: TextStyle(fontWeight: FontWeight.bold)),Text('\$35.00')],),),
+    child: Card(child: Column(children: [Image(height:100,image: AssetImage('assets/images/chain.png')),Text('Garden stand',style: TextStyle(fontWeight: FontWeight.bold)),Text('\$98.00')],),),
     ),
     Padding(
     padding: const EdgeInsets.all(8.0),
-    child: Card(child: Column(children: [Image(image: AssetImage('assets/images/wallpaper.jpg')),Text('Garden stand',style: TextStyle(fontWeight: FontWeight.bold)),Text('\$98.00')],),),
+    child: Card(child: Column(children: [Image(height:100,image: AssetImage('assets/images/earrings.png')),Text('Strut earrings',style: TextStyle(fontWeight: FontWeight.bold)),Text('\$34.00')],),),
     ),
     Padding(
     padding: const EdgeInsets.all(8.0),
-    child: Card(child: Column(children: [Image(image: AssetImage('assets/images/wallpaper.jpg')),Text('Strut earrings',style: TextStyle(fontWeight: FontWeight.bold)),Text('\$34.00')],),),
+    child: Card(child: Column(children: [Image(height:100,image: AssetImage('assets/images/socks.png')),Text('Varsity socks',style: TextStyle(fontWeight: FontWeight.bold)),Text('\$12.00')],),),
     ),
     Padding(
     padding: const EdgeInsets.all(8.0),
-    child: Card(child: Column(children: [Image(image: AssetImage('assets/images/wallpaper.jpg')),Text('Varsity socks',style: TextStyle(fontWeight: FontWeight.bold)),Text('\$12.00')],),),
+    child: Card(child: Column(children: [Image(image: AssetImage('assets/images/wallpaper.jpg')),Text('data',style: TextStyle(fontWeight: FontWeight.bold)),Text('data')],),),
     ),
     Padding(
     padding: const EdgeInsets.all(8.0),
