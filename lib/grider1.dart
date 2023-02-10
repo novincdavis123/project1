@@ -11,9 +11,9 @@ class Grider2 extends StatelessWidget {
     DecorationImage(fit:BoxFit.fill,image: NetworkImage(
         'https://images.unsplash.com/photo-1554844344-c34ea04258c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHJ1c3NpYXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=400&q=60')),
     DecorationImage(fit:BoxFit.fill,image: NetworkImage(
-        'https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dXNhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60')),
+        'https://images.unsplash.com/photo-1519832979-6fa011b87667?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OXx8Y2FuYWRhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1400&q=60')),
     DecorationImage(fit:BoxFit.fill,image: NetworkImage(
-        'https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dXNhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60')),
+        'https://images.unsplash.com/photo-1491557345352-5929e343eb89?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8ZXVyb3BlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=1400&q=60')),
   ];
   var list2=['USA','England','France','Russia','Canada','Europe'];
   @override
