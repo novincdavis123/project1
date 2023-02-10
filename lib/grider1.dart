@@ -15,7 +15,6 @@ class Grider2 extends StatelessWidget {
     DecorationImage(fit:BoxFit.fill,image: NetworkImage(
         'https://images.unsplash.com/photo-1480714378408-67cf0d13bc1b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8dXNhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=400&q=60')),
   ];
-
   var list2=['USA','England','France','Russia','Canada','Europe'];
   @override
   Widget build(BuildContext context) {
@@ -28,7 +27,7 @@ class Grider2 extends StatelessWidget {
               return Stack(
                 children: [Container(
                   decoration: BoxDecoration(image: list1[index]),
-                ),Positioned(left: 20,top:170,child: Text(list2[index],style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.white),))
+                ),Positioned(left: 20,top:150,child: Text(list2[index],style: TextStyle(fontSize: 20,fontWeight: FontWeight.bold,color: Colors.white),))
               ]
               );
             }));
