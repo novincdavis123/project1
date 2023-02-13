@@ -23,6 +23,7 @@ import 'package:project1/stag.dart';
 import 'Seconddart.dart';
 import 'exgrid.dart';
 import 'logpage.dart';
+import 'lot.dart';
 import 'newdemo.dart';
 import 'newstag.dart';
 
@@ -47,7 +48,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     Timer(Duration(seconds: 2), () {
       Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (context) => RegScreen()));
+          MaterialPageRoute(builder: (context) => Loti()));
     });
   }
   @override
