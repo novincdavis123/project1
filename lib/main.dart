@@ -14,6 +14,7 @@ import 'package:project1/grid.dart';
 import 'package:project1/gridbuild.dart';
 import 'package:project1/grider1.dart';
 import 'package:project1/listui.dart';
+import 'package:project1/pass.dart';
 import 'package:project1/separated.dart';
 import 'package:project1/newgrid.dart';
 import 'package:project1/st.dart';
@@ -46,7 +47,7 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     Timer(Duration(seconds: 2), () {
       Navigator.of(context).pushReplacement(
-          MaterialPageRoute(builder: (context) => Tacker()));
+          MaterialPageRoute(builder: (context) => RegScreen()));
     });
   }
   @override
